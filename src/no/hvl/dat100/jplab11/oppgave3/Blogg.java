@@ -1,18 +1,22 @@
 package no.hvl.dat100.jplab11.oppgave3;
 
 import no.hvl.dat100.jplab11.common.TODO;
-import no.hvl.dat100.jplab11.oppgave1.*;
+import no.hvl.dat100.jplab11.oppgave1.Innlegg;
 
 public class Blogg {
 
-	// TODO: objektvariable 
+	private int lengde;
+	private String keyword;
 
 	public Blogg() {
 		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
 	}
 
 	public Blogg(int lengde) {
-		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
+		Innlegg[] innleggtabell = new Innlegg[lengde];
+		for (int i=0; i<lengde; i++) {
+			
+		}
 	}
 
 	public int getAntall() {
